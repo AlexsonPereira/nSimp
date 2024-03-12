@@ -1,0 +1,42 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header div.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+header div.navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.ul-header{
+    width: 80%;
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 8px; 
+    
+}
+.li-header{
+    padding: 0 15px;
+    color: var(--corTexto2);
+}
+.li-header :hover{
+    border-bottom: solid 1px white;
+}
+.active {
+    font-weight: bold;
+}
